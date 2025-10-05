@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/camiracle/turn-tracker/issues"
   },
-  "homepage": "https://github.com/camiracle/turn-tracker#readme"
+  "homepage": "https://github.com/camiracle/turn-tracker#readme",
+  "dependencies": {
+    "ask-sdk": "^2.14.0"
+  }
 }
