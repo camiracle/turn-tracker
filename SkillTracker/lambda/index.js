@@ -15,7 +15,7 @@ const LaunchRequestHandler = {
     }
   };
 
-  let skill;
+let skill;
 
 exports.handler = async function (event, context) {
   console.log(`REQUEST++++${JSON.stringify(event)}`);
