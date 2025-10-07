@@ -37,7 +37,7 @@
                         "what is the turn order?",
                         "who goes first?"
                     ]
-                }
+                },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
