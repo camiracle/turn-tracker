@@ -29,6 +29,16 @@
                     ]
                 },
                 {
+                    "name": "GetTurnOrder",
+                    "slots": [],
+                    "samples": [
+                        "whose turn is it?",
+                        "whose turn is it anyway?",
+                        "what is the turn order?",
+                        "who goes first?"
+                    ]
+                }
+                {
                     "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
                 },

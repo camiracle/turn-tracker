@@ -1,7 +1,7 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "turn-tracker",
       "was_cloned": false,
       "merge": {}
     }

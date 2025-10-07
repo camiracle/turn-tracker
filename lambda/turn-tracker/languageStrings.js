@@ -14,7 +14,8 @@ module.exports = {
             GOODBYE_MSG: 'Goodbye!',
             REFLECTOR_MSG: 'You just triggered {{intentName}}',
             FALLBACK_MSG: 'Sorry, I don\'t know about that. Please try again.',
-            ERROR_MSG: 'Sorry, I had trouble doing what you asked. Please try again.'
+            ERROR_MSG: 'Sorry, I had trouble doing what you asked. Please try again.',
+            TURN_ORDER_MSG: 'Today, the turn order is: {{turnOrder}}',
         }
     },
     es: {
