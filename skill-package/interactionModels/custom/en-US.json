@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "turn tracker",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+            "name": "GetTurnOrder",
+            "slots": [],
+            "samples": [
+                "whose turn is it",
+                "whose turn is it anyway",
+                "what is the turn order",
+                "who goes first"
+            ]
+        },
+        {
+            "name": "AddPerson",
+            "slots": [
+              {
+                "name": "personName",
+                "type": "AMAZON.FirstName"
+              }
+            ],
+            "samples": [
+                "add person named {personName}",
+                "add name {personName}"
+            ]
+        },
+        {
+            "name": "RotateTurns",
+            "slots": [],
+            "samples": [
+                "rotate",
+                "rotate turns"
+            ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
